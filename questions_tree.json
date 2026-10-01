@@ -1,0 +1,437 @@
+{
+  "theology_proper": [
+    {
+      "id": "tp1",
+      "text": "What is the fundamental metaphysical nature of God in relation to the universe?",
+      "options": [
+        { "text": "A transcendent Creator distinct from and sovereign over an objectively real cosmos", "next": "tp_persons" },
+        { "text": "God as interdependent with creation or as the sole true Mind", "next": "tp_alt_meta" }
+      ]
+    },
+    {
+      "id": "tp_alt_meta",
+      "text": "Which metaphysical framework describes God and reality?",
+      "options": [
+        { "text": "God is Infinite Mind; physical matter, sickness, and evil are illusory perceptions of mortal consciousness", "next": "monistic_idealism" },
+        { "text": "God and the cosmos are interdependent; God evolves alongside creation and acts through persuasive love rather than coercion", "next": "process_panentheism" }
+      ]
+    },
+    {
+      "id": "tp_persons",
+      "text": "Does the Godhead consist of a single person or a plurality of distinct divine persons?",
+      "options": [
+        { "text": "The Godhead consists of a plurality of distinct divine persons", "next": "tp_plural_persons" },
+        { "text": "God is strictly one singular divine person", "next": "tp_one_person" }
+      ]
+    },
+    {
+      "id": "tp_one_person",
+      "text": "How are the Father, Son, and Holy Spirit understood within unipersonal monotheism?",
+      "options": [
+        { "text": "The Father alone is the singular God; Jesus is a subordinate prophet or creature, and the Spirit is an impersonal power", "next": "unitarian_monotheism" },
+        { "text": "Father, Son, and Holy Spirit are not separate persons, but three sequential modes or roles assumed by one singular Person", "next": "modalistic_monarchianism" }
+      ]
+    },
+    {
+      "id": "tp_plural_persons",
+      "text": "How many distinct divine persons exist, and what is their metaphysical unity?",
+      "options": [
+        { "text": "Three distinct, co-equal, co-eternal persons sharing one singular, undivided divine essence", "next": "tp_trinity_models" },
+        { "text": "Exactly two distinct divine persons (Father and Son), with the Holy Spirit being God's impersonal breath or power", "next": "binitarianism" },
+        { "text": "Three separate divine individuals united in purpose and love rather than sharing one indivisible essence", "next": "tritheism" }
+      ]
+    },
+    {
+      "id": "tp_trinity_models",
+      "text": "How is the internal order and essence of the Holy Trinity understood?",
+      "options": [
+        { "text": "One simple, undivided essence and will, distinguished solely by eternal relations of origin (with the Spirit proceeding from the Father and the Son)", "next": "classical_trinitarianism" },
+        { "text": "The Father alone is the sole unoriginate source and fountainhead (monarchia) of divinity, begetting the Son and spirating the Spirit through the Son", "next": "monarchical_trinitarianism" },
+        { "text": "Three distinct centers of consciousness and will existing in an egalitarian, interpersonal communion of mutual indwelling (perichoresis)", "next": "social_trinitarianism" }
+      ]
+    },
+    { "id": "classical_trinitarianism" },
+    { "id": "monarchical_trinitarianism" },
+    { "id": "social_trinitarianism" },
+    { "id": "unitarian_monotheism" },
+    { "id": "modalistic_monarchianism" },
+    { "id": "binitarianism" },
+    { "id": "tritheism" },
+    { "id": "process_panentheism" },
+    { "id": "monistic_idealism" }
+  ],
+  "christology": [
+    {
+      "id": "c1",
+      "text": "What is the origin, pre-existence, and physical reality of Jesus Christ?",
+      "options": [
+        { "text": "Christ is truly divine and took real physical flesh, leading to historic debates over his natures", "next": "c_divine_incarnation" },
+        { "text": "Christ pre-existed in heaven, but as a subordinate, created, or distinct heavenly entity rather than co-equal God", "next": "c_subordinate" },
+        { "text": "Christ did not pre-exist in heaven; his existence began strictly on Earth as a human being", "next": "c_no_preexistence" },
+        { "text": "Christ was a purely spiritual, divine apparition whose physical body and suffering were only an illusion", "next": "docetism" }
+      ]
+    },
+    {
+      "id": "c_no_preexistence",
+      "text": "How did Christ attain his unique status without prior heavenly pre-existence?",
+      "options": [
+        { "text": "He was an ordinary mortal man chosen and adopted as God's Son at his baptism or resurrection due to his moral perfection", "next": "adoptionism" },
+        { "text": "He was miraculously conceived by the Virgin Mary as a mortal prophet, without pre-existence, and was exalted to divine power only after his resurrection", "next": "socinianism" }
+      ]
+    },
+    {
+      "id": "c_subordinate",
+      "text": "How is Christ's pre-existent heavenly identity defined in relation to the Father?",
+      "options": [
+        { "text": "The Son is truly divine and uncreated, but eternally subordinate in ontological rank and glory to the Father", "next": "subordinationism" },
+        { "text": "The Son was created out of nothing as the first and highest of all creations", "next": "arianism" },
+        { "text": "Christ was the chief archangel (Michael) who relinquished his angelic state to become mortal", "next": "angelomorphism" },
+        { "text": "Christ is the literal firstborn spirit offspring of Heavenly Parents who advanced to Godhood before birth", "next": "premortal_firstborn" }
+      ]
+    },
+    {
+      "id": "c_divine_incarnation",
+      "text": "What was the physical origin of Christ's incarnate human body?",
+      "options": [
+        { "text": "Christ took authentic human flesh derived from the substance of the Virgin Mary", "next": "c_union_of_natures" },
+        { "text": "Christ brought heavenly flesh from above, passing through Mary like water through a pipe without taking her fallen flesh", "next": "celestial_flesh" }
+      ]
+    },
+    {
+      "id": "c_union_of_natures",
+      "text": "How are the divine and human united in Jesus Christ?",
+      "options": [
+        { "text": "Two distinct natures united in one person without confusion, change, division, or separation", "next": "chalcedonian_dyophysitism" },
+        { "text": "One united divine-human nature without confusion or separation, preserving both full divinity and full humanity in composite unity", "next": "miaphysitism" },
+        { "text": "Two loosely conjoined persons or moral subjects, emphasizing that Mary bore the man rather than God", "next": "nestorianism" },
+        { "text": "Christ's human nature was completely dissolved and absorbed into his divine nature like a drop of vinegar in the ocean", "next": "monophysitism" }
+      ]
+    },
+    { "id": "chalcedonian_dyophysitism" },
+    { "id": "miaphysitism" },
+    { "id": "nestorianism" },
+    { "id": "monophysitism" },
+    { "id": "celestial_flesh" },
+    { "id": "subordinationism" },
+    { "id": "arianism" },
+    { "id": "angelomorphism" },
+    { "id": "premortal_firstborn" },
+    { "id": "socinianism" },
+    { "id": "adoptionism" },
+    { "id": "docetism" }
+  ],
+  "bibliology": [
+    {
+      "id": "b1",
+      "text": "How should the nature and scope of divine revelation be approached?",
+      "options": [
+        { "text": "Through the historical, written biblical text as the foundational rule of faith", "next": "b_text_authority" },
+        { "text": "Through dynamic ongoing revelation or modern critical re-evaluations", "next": "b_dynamic_modern" }
+      ]
+    },
+    {
+      "id": "b_text_authority",
+      "text": "Does Scripture require external ecclesiastical authority to interpret and preserve it?",
+      "options": [
+        { "text": "Yes, Scripture is inseparable from church authority or/and apostolic tradition", "next": "b_tradition_structure" },
+        { "text": "No, Scripture stands above all ecclesiastical hierarchies as the supreme written authority", "next": "b_scripture_supremacy" }
+      ]
+    },
+    {
+      "id": "b_tradition_structure",
+      "text": "Where does authoritative ecclesiastical oversight of Scripture and doctrine reside?",
+      "options": [
+        { "text": "In a centralized, exclusive teaching office or governing magisterium with unique authority to define truth", "next": "magisterialism" },
+        { "text": "In the historical consensus of ecumenical councils and collegial apostolic tradition", "next": "conciliarism" }
+      ]
+    },
+    {
+      "id": "b_scripture_supremacy",
+      "text": "Do post-biblical historic creeds, confessions, and traditions hold any legitimate ministerial authority?",
+      "options": [
+        { "text": "Yes, historic creeds and church reflections hold valuable subordinate authority under Scripture", "next": "b_creed_degrees" },
+        { "text": "No, all human creeds are rejected in favor of strict biblicism", "next": "nuda_scriptura" }
+      ]
+    },
+    {
+      "id": "b_creed_degrees",
+      "text": "How strictly is Scripture's authority defined against church tradition and human reason?",
+      "options": [
+        { "text": "Scripture is the primary authority within an interdependent triad alongside tradition and reason", "next": "prima_scriptura" },
+        { "text": "Scripture alone is the sole infallible norm of doctrine, with confessions acting strictly as subordinate guides", "next": "sola_scriptura" }
+      ]
+    },
+    {
+      "id": "b_dynamic_modern",
+      "text": "How does revelation operate beyond traditional confessional models?",
+      "options": [
+        { "text": "Through ongoing supernatural revelation given by the Spirit or living prophets", "next": "b_ongoing_revelation" },
+        { "text": "Through historical-critical analysis or existential encounters with the human text", "next": "b_modern_approaches" }
+      ]
+    },
+    {
+      "id": "b_ongoing_revelation",
+      "text": "What channel delivers ongoing divine revelation?",
+      "options": [
+        { "text": "An open canon guided by living prophets and apostles who receive new authoritative scripture", "next": "continuing_revelation" },
+        { "text": "The unmediated inward illumination of the Holy Spirit (the Inner Light) within the individual believer", "next": "spiritualism" }
+      ]
+    },
+    {
+      "id": "b_modern_approaches",
+      "text": "How is the human and historical nature of the Bible understood?",
+      "options": [
+        { "text": "The Bible is a fallible human witness that becomes God's Word dynamically during an existential crisis of faith", "next": "neo_orthodoxy" },
+        { "text": "The Bible is an entirely human historical record of religious evolution, evaluated by critical reason without supernatural inerrancy", "next": "modernism" }
+      ]
+    },
+    { "id": "magisterialism" },
+    { "id": "conciliarism" },
+    { "id": "prima_scriptura" },
+    { "id": "sola_scriptura" },
+    { "id": "nuda_scriptura" },
+    { "id": "continuing_revelation" },
+    { "id": "spiritualism" },
+    { "id": "neo_orthodoxy" },
+    { "id": "modernism" }
+  ],
+  "pneumatology": [
+    {
+      "id": "p1",
+      "text": "How is the essential reality and identity of the Holy Spirit understood?",
+      "options": [
+        { "text": "A divine Person who supernaturally acts within the Church and individual believers", "next": "p_person_operation" },
+        { "text": "An impersonal concept", "next": "p_alt_spirit" }
+      ]
+    },
+    {
+      "id": "p_alt_spirit",
+      "text": "How is the Holy Spirit understood outside traditional personal models?",
+      "options": [
+        { "text": "God's literal, impersonal active force or supernatural energy used to accomplish the divine will", "next": "dynamism" },
+        { "text": "The collective moral impulse, empathy, and human motivation to struggle for social justice and liberation", "next": "immanentism" }
+      ]
+    },
+    {
+      "id": "p_person_operation",
+      "text": "How does the Holy Spirit primarily impart divine grace and power to believers?",
+      "options": [
+        { "text": "Normatively through objective covenantal means", "next": "p_traditional_means" },
+        { "text": "Through distinct experiential encounters, subsequent blessings, or miraculous gifts", "next": "p_experiential_focus" }
+      ]
+    },
+    {
+      "id": "p_traditional_means",
+      "text": "What is the relationship between the Spirit's ongoing work and miraculous sign gifts?",
+      "options": [
+        { "text": "The Spirit acts primarily through baptism, chrismation, and liturgical sacraments to impart sanctifying grace", "next": "sacramentalism" },
+        { "text": "The Spirit regenerates through the Word, but supernatural sign gifts (tongues, prophecy) ceased with the Apostles", "next": "cessationism" }
+      ]
+    },
+    {
+      "id": "p_experiential_focus",
+      "text": "What is the primary experiential work or gift of the Holy Spirit emphasized in the Christian life?",
+      "options": [
+        { "text": "A work of divine grace enabling entire sanctification, delivering the believer from the power of willful sin into perfect love in this life", "next": "perfectionism" },
+        { "text": "The supernatural endowment of miraculous spiritual gifts for ministry and witness", "next": "p_charismatic_evidence" }
+      ]
+    },
+    {
+      "id": "p_charismatic_evidence",
+      "text": "Is speaking in tongues the mandatory initial evidence of Spirit baptism?",
+      "options": [
+        { "text": "Miraculous gifts continue today, but speaking in tongues is not the mandatory evidence for receiving the Spirit", "next": "continuationism" },
+        { "text": "Baptism in the Holy Spirit is a distinct endowment of power necessarily evidenced by speaking in tongues", "next": "glossolalism" }
+      ]
+    },
+    { "id": "glossolalism" },
+    { "id": "continuationism" },
+    { "id": "cessationism" },
+    { "id": "perfectionism" },
+    { "id": "sacramentalism" },
+    { "id": "dynamism" },
+    { "id": "immanentism" }
+  ],
+  "hamartiology": [
+    {
+      "id": "h1",
+      "text": "What is the primary nature of the Fall and the origin of human moral failure?",
+      "options": [
+        { "text": "A historical catastrophe that damaged or corrupted human nature and spiritual capacity", "next": "h_fall_corrupted" },
+        { "text": "Adam was merely a bad external example; human nature remains uncorrupted with full free will to obey God", "next": "pelagianism" },
+        { "text": "A purposeful and necessary step in divine progression that enabled mortal agency, experience, and joy", "next": "necessary_fall" },
+        { "text": "A non-literal concept: human failure is rooted in biology, systemic structures, or mortal misperception", "next": "h_nontraditional" }
+      ]
+    },
+    {
+      "id": "h_fall_corrupted",
+      "text": "How deep is the inherited corruption of the Fall, and does humanity inherit Adam's guilt?",
+      "options": [
+        { "text": "Total depravity: every human faculty is dead in sin and in bondage, unable to seek or choose God without sovereign grace", "next": "total_depravity" },
+        { "text": "Wounded nature: humanity inherits both original guilt and concupiscence, requiring sacramental infusion of grace to heal and justify", "next": "wounded_nature" },
+        { "text": "Ancestral sin: humanity inherits physical mortality, corruption, and fallen inclinations, but not the personal guilt of Adam's transgression", "next": "ancestral_sin" }
+      ]
+    },
+    {
+      "id": "h_nontraditional",
+      "text": "How is sin or evil fundamentally explained outside supernatural theological models?",
+      "options": [
+        { "text": "An evolutionary, psychological, or systemic social flaw without any supernatural curse or cosmic fall", "next": "naturalism" },
+        { "text": "An illusion of mortal consciousness and material belief, possessing no ultimate spiritual or divine reality", "next": "spiritual_idealism" }
+      ]
+    },
+    { "id": "total_depravity" },
+    { "id": "wounded_nature" },
+    { "id": "ancestral_sin" },
+    { "id": "pelagianism" },
+    { "id": "necessary_fall" },
+    { "id": "naturalism" },
+    { "id": "spiritual_idealism" }
+  ],
+  "sacramentology": [
+    {
+      "id": "s1",
+      "text": "What is the primary nature and efficacy of outward physical sacraments (such as baptism and the Lord's Supper)?",
+      "options": [
+        { "text": "Outward physical ceremonies are unnecessary; true baptism and communion are entirely inward, unmediated spiritual realities", "next": "asacramentalism" },
+        { "text": "The bread and wine objectively convey the true bodily presence and substance of Jesus Christ", "next": "s_real_presence" },
+        { "text": "The elements do not physically contain Christ's body, serving instead as spiritual channels or commemorative covenant ordinances", "next": "s_ordinance_models" }
+      ]
+    },
+    {
+      "id": "s_real_presence",
+      "text": "How is Christ's true body and blood present in the Eucharist?",
+      "options": [
+        { "text": "The underlying substance of bread and wine is completely transformed into the body and blood of Christ, leaving only the outward physical appearances (accidents)", "next": "transubstantiation" },
+        { "text": "Christ's true body and blood are substantially present in, with, and under the elements, which remain genuinely bread and wine", "next": "sacramental_union" },
+        { "text": "The elements genuinely become the body and blood of Christ as an ineffable divine mystery", "next": "mystical_realism" }
+      ]
+    },
+    {
+      "id": "s_ordinance_models",
+      "text": "How do physical ordinances impart grace or signify Christ's work?",
+      "options": [
+        { "text": "Christ is spiritually present through the Holy Spirit; believers dynamically feed upon Christ by faith, though the elements remain physically unchanged", "next": "pneumatic_presence" },
+        { "text": "The Lord's Supper is a memorial, but immersion in water baptism is the essential instrument through which sins are remitted and salvation is conferred", "next": "baptismal_remission" },
+        { "text": "Sacraments are strictly commemorative memorials and outward badges of obedience, conveying neither sacramental regeneration nor Christ's physical presence", "next": "memorialism" }
+      ]
+    },
+    { "id": "transubstantiation" },
+    { "id": "mystical_realism" },
+    { "id": "sacramental_union" },
+    { "id": "pneumatic_presence" },
+    { "id": "baptismal_remission" },
+    { "id": "memorialism" },
+    { "id": "asacramentalism" }
+  ],
+  "soteriology": [
+    {
+      "id": "sot1",
+      "text": "What is the primary foundation and meaning of Christ's saving work on the cross?",
+      "options": [
+        { "text": "An objective atonement and redemption that reconciles humanity to God through divine grace and sacrifice", "next": "sot_justification_nature" },
+        { "text": "A moral awakening inspired by Christ's supreme demonstration of love, leading humanity to ethical renewal without penal or substitutionary blood atonement", "next": "moral_influence" }
+      ]
+    },
+    {
+      "id": "sot_justification_nature",
+      "text": "On what basis is a believer justified and granted eternal salvation?",
+      "options": [
+        { "text": "By faith alone: an unmerited courtroom acquittal where Christ's righteousness is legally credited to the believer, with good works being the fruit rather than a condition of salvation", "next": "forensic_justification" },
+        { "text": "Through active cooperation with grace: salvation is an ongoing reality where genuine faith must be lived out through personal holiness", "next": "sot_cooperative_path" }
+      ]
+    },
+    {
+      "id": "sot_cooperative_path",
+      "text": "What is the primary focus of this cooperative, saving life of grace?",
+      "options": [
+        { "text": "Discipleship and obedient faith: true saving faith is inseparable from following Jesus in daily life, walking in His teachings, and persevering in practical holiness and repentance", "next": "covenantal_nomism" },
+        { "text": "Inward ontological renewal: divine grace is communicated to heal, transform, and elevate fallen human nature from within", "next": "sot_ontological_trans" }
+      ]
+    },
+    {
+      "id": "sot_ontological_trans",
+      "text": "How is this internal transformation and healing of the soul understood?",
+      "options": [
+        { "text": "Sanctifying grace is infused into the soul through the sacraments, making the believer actually righteous and requiring cooperation through faith and charity for final salvation", "next": "infused_righteousness" },
+        { "text": "The human person partakes of God's uncreated divine energies to conquer mortality and corruption, transfiguring the soul into the divine likeness without Western legal or merit categories", "next": "theosis" }
+      ]
+    },
+    { "id": "forensic_justification" },
+    { "id": "infused_righteousness" },
+    { "id": "theosis" },
+    { "id": "covenantal_nomism" },
+    { "id": "moral_influence" }
+  ],
+  "ecclesiology": [
+    {
+      "id": "ecc1",
+      "text": "What is the primary organizing principle of ministerial office and church leadership?",
+      "options": [
+        { "text": "The Church is organized under formal ordained offices and structured pastoral leadership", "next": "ecc_oversight_scope" },
+        { "text": "The Church is an unprogrammed, egalitarian spiritual fellowship with no formal ordained clergy, sacramental offices, or institutional hierarchy", "next": "non_clerical" }
+      ]
+    },
+    {
+      "id": "ecc_oversight_scope",
+      "text": "How should authority and jurisdiction be structured among individual congregations?",
+      "options": [
+        { "text": "Local congregations are accountable to and bound by broader regional, synodal, or hierarchical authorities", "next": "ecc_oversight_type" },
+        { "text": "Each gathered local congregation is fully independent and self-governing under Christ alone, rejecting binding external hierarchies or headquarters", "next": "congregationalism" }
+      ]
+    },
+    {
+      "id": "ecc_oversight_type",
+      "text": "What form should this broader connectional oversight take?",
+      "options": [
+        { "text": "Representative assemblies of ordained elders sharing equal ministerial rank across graded local, regional, and national courts", "next": "presbyterianism" },
+        { "text": "Authority is exercised by bishops or a central governing office possessing superior jurisdiction over ministers and congregations", "next": "ecc_episcopal_focus" }
+      ]
+    },
+    {
+      "id": "ecc_episcopal_focus",
+      "text": "Where does the highest earthly governing authority reside across the Church?",
+      "options": [
+        { "text": "In a single supreme earthly head, visible pontiff, or centralized theocratic council whose oversight and communion define the boundaries of the true Church", "next": "centralism" },
+        { "text": "In a collegial communion of regional bishops holding historic apostolic succession who govern as equals under Christ through conciliar synods", "next": "episcopacy" }
+      ]
+    },
+    { "id": "centralism" },
+    { "id": "episcopacy" },
+    { "id": "presbyterianism" },
+    { "id": "congregationalism" },
+    { "id": "non_clerical" }
+  ],
+  "eschatology": [
+    {
+      "id": "esch1",
+      "text": "What is the primary timeframe and nature of the Millennial Kingdom and major biblical prophecies?",
+      "options": [
+        { "text": "Fulfilled in the first century: the Olivet Discourse, Tribulation, and apocalyptic imagery were largely or entirely realized with the fall of Jerusalem in 70 AD and the close of the Old Covenant order", "next": "preterism" },
+        { "text": "A future earthly era: Christ will return bodily before the Millennium to inaugurate a literal or physical reign on earth", "next": "esch_premill_structure" },
+        { "text": "Present or progressive realization: the Millennium is Christ's spiritual reign during the church age or an earthly golden age achieved prior to His return", "next": "esch_present_future_kingdom" }
+      ]
+    },
+    {
+      "id": "esch_premill_structure",
+      "text": "How is the prophetic sequence of Christ's return and God's plan for Israel structured?",
+      "options": [
+        { "text": "A two-stage return with distinct programs for Israel and the Church: Christ secretly raptures the Church before a seven-year Tribulation, then returns to establish an earthly millennium fulfilling literal Davidic promises to ethnic Israel", "next": "dispensationalism" },
+        { "text": "A single continuous covenant people: Christ returns bodily after the Great Tribulation to inaugurate an earthly millennial reign alongside resurrected believers, rejecting a secret pre-tribulation rapture", "next": "premillennialism" }
+      ]
+    },
+    {
+      "id": "esch_present_future_kingdom",
+      "text": "How does the Kingdom of God develop in world history prior to the final judgment?",
+      "options": [
+        { "text": "The Millennium is Christ's present spiritual reign over the Church from heaven; history continues with a mixture of good and evil until Christ returns once at the end of time for the general resurrection and final judgment", "next": "amillennialism" },
+        { "text": "The Church will successfully fulfill the Great Commission, progressively Christianizing society, culture, and civil government to usher in a prolonged golden age of earthly righteousness and peace before Christ returns", "next": "postmillennialism" }
+      ]
+    },
+    { "id": "amillennialism" },
+    { "id": "premillennialism" },
+    { "id": "dispensationalism" },
+    { "id": "postmillennialism" },
+    { "id": "preterism" }
+  ]
+}
